@@ -18,7 +18,7 @@ $('#forward').on('click', function() {
 	$('.circle:last-child').animate({
 			opacity: '0',
 			left: '600px',
-			marginLeft: '-183px'
+			marginLeft: '183px'
 	}, 0, function() {
 		$(this).css({
 			transform: 'scale(2, 2)',
